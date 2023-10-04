@@ -1,0 +1,58 @@
+
+.row{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    row-gap: 10px;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding:10px 10px 0 10px;
+}
+.car{
+    border-radius: 10px;
+    width: 390px;
+    height: 180px;
+    object-fit:fill;
+}
+.row-one,.row-two,.row-three{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.year{
+    border: 1px dotted black;
+    border-radius: 5px;
+    padding: 2px 7px;
+    font-size: smaller;
+}
+h1{
+    font-weight: light;
+}
+.details{
+    font-size: smaller;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    margin: -5px 0;
+}
+button{
+    height: 25px;
+    width: 80px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(3, 103, 142);
+    color: white;
+}
+.like-icon{
+    color: skyblue;
+    background-color: rgb(112, 163, 208);
+    border-radius: 5px;
+}
+.box{
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 10px;
+row-gap: 10px;
+}
