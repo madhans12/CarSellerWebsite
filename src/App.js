@@ -20,7 +20,7 @@ function App() {
         <div className="car-list">
           <BrowserRouter>
             <Routes>
-              <Route path="/" element={<Carcomp1 />}></Route>
+              <Route path="/CarSellerWebsite" element={<Carcomp1 />}></Route>
               <Route path="/page1" element={<Carcomp2 />}></Route>
               <Route path="/page2" element={<Carcomp1 />}></Route>
               <Route path="/page3" element={<Carcomp2 />}></Route>
