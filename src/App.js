@@ -2,7 +2,7 @@ import "./App.css";
 import SearchSharpIcon from "@mui/icons-material/SearchSharp";
 import Carcomp1 from "./Carcomp1";
 import Carcomp2 from "./CarComp2";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
           <SearchSharpIcon className="search-icon" />
         </div>
         <div className="car-list">
-          <BrowserRouter>
+          <HashRouter>
             <Routes>
               <Route path="/CarSellerWebsite" element={<Carcomp1 />}></Route>
               <Route path="/page1" element={<Carcomp2 />}></Route>
@@ -32,7 +32,7 @@ function App() {
               <Route path="/page9" element={<Carcomp2 />}></Route>
               <Route path="/page10" element={<Carcomp1 />}></Route>
             </Routes>
-          </BrowserRouter>
+          </HashRouter>
         </div>
       </div>
     </div>
