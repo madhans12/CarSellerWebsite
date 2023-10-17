@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CarSellerWebsite/static/css/main.11df6937.css",
+    "main.js": "/CarSellerWebsite/static/js/main.15f58f3a.js",
+    "static/js/787.06c3d7ac.chunk.js": "/CarSellerWebsite/static/js/787.06c3d7ac.chunk.js",
+    "index.html": "/CarSellerWebsite/index.html",
+    "main.11df6937.css.map": "/CarSellerWebsite/static/css/main.11df6937.css.map",
+    "main.15f58f3a.js.map": "/CarSellerWebsite/static/js/main.15f58f3a.js.map",
+    "787.06c3d7ac.chunk.js.map": "/CarSellerWebsite/static/js/787.06c3d7ac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11df6937.css",
+    "static/js/main.15f58f3a.js"
+  ]
+}
